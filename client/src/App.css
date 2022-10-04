@@ -1,0 +1,100 @@
+  /* font-family: 'Audiowide', cursive;
+  font-family: 'Aclonica', sans-serif;
+  font-family: 'IM Fell French Canon SC', serif; */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #f3f3f3;
+    background:  url('./bgproducts.jpg');
+  }
+
+  .h-title{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 1.5rem
+}
+
+
+ .img-container{
+    position:relative;
+    overflow: hidden;
+}
+.cart-btn{
+    position: absolute;
+    right: 0;
+    top: 18.5rem;
+    padding: 0.2rem 0.4rem;
+    border: none;
+    outline: none;
+
+}
+
+.cart-btn:hover{
+  background-color: gray;
+  font-weight: bolder;
+
+}
+
+.btn-black{
+  background: transparent;
+  font-size: 1.8rem !important;
+  color: #b3afae;
+  padding: 0.2rem 0.2rem;
+  width: 2rem;
+}
+
+.btn-black:hover{
+  color: black !important;
+  font-weight: bold;
+}
+
+.productBox{
+    margin: 2rem;
+  }
+
+
+  hr { border: 1px solid darkgray;}
+
+  .main{
+    font-family:'IM Fell French Canon SC', serif;
+    color: #f3f3f3;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 4.65rem;
+    left: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .subdiv{
+    position: relative;
+    top: 20%;
+    left: 25%;
+    width: 45%;
+
+  }
+
+  h2{
+    position: relative;
+    font-size: 4rem; 
+  }
+  
+  .subdiv p{
+    font-size: 1.3rem;
+    color:#33cec6d8;
+  }
+
+  .btn-shopnow{
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: #f3f3ff!important;
+    border-color: #33cec6d8;
+  }

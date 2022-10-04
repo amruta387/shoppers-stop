@@ -1,0 +1,27 @@
+{
+  "name": "shopping_cart_phase1",
+  "version": "1.0.0",
+  "description": "shopping cart application ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "products",
+    "cart",
+    "total"
+  ],
+  "author": "Amruta",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "react-particles-js": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
