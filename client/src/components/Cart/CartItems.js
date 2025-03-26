@@ -24,10 +24,10 @@ export default function CartItems({item,value}) {
                     <div className="d-flex justify-content-center">
                         <div>
                             <span className="btn btn-black mx-1" onClick={()=>decrement(id)}>
-                                <i className="far fa-minus-square"></i></span>
+                                <i className="far fa-minus-square">-</i></span>
                             <strong> {count} </strong>
                             <span className="btn btn-black mx-1" onClick={()=>increment(id)}>
-                                <i className="far fa-plus-square"></i></span>
+                                <i className="far fa-plus-square">+</i></span>
                         </div>
                     </div>
                 </Col>
